@@ -1,0 +1,111 @@
+- generic [ref=f5e305]:
+  - generic [ref=f5e306]:
+    - button [ref=f5e308] [cursor=pointer]
+    - generic [ref=f5e315]:
+      - generic [ref=f5e316]: Starter Project
+      - generic [ref=f5e319]: /
+      - generic [aria-hidden] [ref=f5e326] [cursor=pointer]: New Flow (1)
+    - generic [ref=f5e330]:
+      - generic [ref=f5e332]:
+        - button "156k" [ref=f5e333] [cursor=pointer]
+        - button "25k" [ref=f5e338] [cursor=pointer]
+      - button [ref=f5e343] [cursor=pointer]
+      - button [ref=f5e349] [cursor=pointer]:
+        - img "User" [ref=f5e354]
+  - generic [ref=f5e362]:
+    - generic [ref=f5e367]:
+      - list [ref=f5e369]:
+        - listitem [ref=f5e371]:
+          - button "Search" [ref=f5e372] [cursor=pointer]
+        - listitem [ref=f5e378]:
+          - button "Components" [ref=f5e379] [cursor=pointer]
+        - listitem [ref=f5e387]:
+          - button "ModelContextProtocol MCP" [ref=f5e388] [cursor=pointer]:
+            - img "ModelContextProtocol" [ref=f5e389]
+            - generic [ref=f5e392]: MCP
+        - listitem [ref=f5e394]:
+          - button "Bundles" [ref=f5e395] [cursor=pointer]
+        - listitem [ref=f5e401]:
+          - button "Versions" [ref=f5e402] [cursor=pointer]
+        - listitem [ref=f5e409]:
+          - button "Traces" [ref=f5e410] [cursor=pointer]
+      - generic [ref=f5e414]:
+        - generic [ref=f5e416]:
+          - generic [ref=f5e417]:
+            - searchbox "Search" [ref=f5e418]
+            - generic: Search
+          - generic: /
+        - generic [ref=f5e419]:
+          - generic [ref=f5e420]:
+            - generic [ref=f5e421]:
+              - generic [ref=f5e422]: Components
+              - button [ref=f5e424] [cursor=pointer]
+            - list [ref=f5e426]:
+              - listitem [ref=f5e428]:
+                - button "Input & Output" [ref=f5e429] [cursor=pointer]
+              - listitem [ref=f5e438]:
+                - button "Data Sources" [ref=f5e439] [cursor=pointer]
+              - listitem [ref=f5e448]:
+                - button "Models & Agents" [ref=f5e449] [cursor=pointer]
+              - listitem [ref=f5e457]:
+                - button "LLM Operations" [ref=f5e458] [cursor=pointer]
+              - listitem [ref=f5e475]:
+                - button "Files & Knowledge" [expanded] [ref=f5e476] [cursor=pointer]
+                - generic [ref=f5e561]:
+                  - generic [ref=f5e563]:
+                    - generic [ref=f5e567]: Knowledge Base
+                    - generic [ref=f5e569]:
+                      - button [ref=f5e570] [cursor=pointer]
+                      - generic [ref=f5e571]:
+                        - combobox
+                  - generic [ref=f5e580]:
+                    - generic [ref=f5e584]: Knowledge Ingestion
+                    - generic [ref=f5e586]:
+                      - button [ref=f5e587] [cursor=pointer]
+                      - generic [ref=f5e588]:
+                        - combobox
+                  - generic [ref=f5e597]:
+                    - generic [ref=f5e601]: Read File
+                    - generic [ref=f5e603]:
+                      - button [ref=f5e604] [cursor=pointer]
+                      - generic [ref=f5e605]:
+                        - combobox
+                  - generic [ref=f5e614]:
+                    - generic [ref=f5e618]: Write File
+                    - generic [ref=f5e620]:
+                      - button [ref=f5e621] [cursor=pointer]
+                      - generic [ref=f5e622]:
+                        - combobox
+              - listitem [ref=f5e485]:
+                - button "Processing" [ref=f5e486] [cursor=pointer]
+              - listitem [ref=f5e492]:
+                - button "Flow Control" [ref=f5e493] [cursor=pointer]
+              - listitem [ref=f5e501]:
+                - button "Utilities" [ref=f5e502] [cursor=pointer]
+          - button "Discover more components" [ref=f5e509] [cursor=pointer]
+        - button "New Custom Component" [ref=f5e512] [cursor=pointer]
+    - main [ref=f5e515]:
+      - generic [ref=f5e518]:
+        - generic [ref=f5e519]:
+          - generic [ref=f5e520]:
+            - generic [ref=f5e521]: New
+            - button [ref=f5e525] [cursor=pointer]:
+              - img "Langflow Assistant" [ref=f5e528]
+          - button "100%" [ref=f5e529] [cursor=pointer]
+          - button "Add Sticky Note" [ref=f5e534] [cursor=pointer]
+          - button "Help" [ref=f5e538] [cursor=pointer]
+          - button "Lock flow" [ref=f5e539] [cursor=pointer]
+          - button "Select a node to open the Inspector Panel" [ref=f5e543] [cursor=pointer]
+        - generic [ref=f5e549]:
+          - generic [ref=f5e550]: Playground
+          - button "Share" [ref=f5e555] [cursor=pointer]
+        - generic:
+          - button "search"
+          - button "components"
+          - button "ModelContextProtocol":
+            - generic:
+              - img "ModelContextProtocol"
+          - button "bundles"
+          - button "versions"
+          - button "traces"
+        - application [ref=f5e556]

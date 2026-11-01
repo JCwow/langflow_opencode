@@ -1,0 +1,62 @@
+- generic [ref=e10]:
+  - generic [ref=e11]:
+    - button [ref=e13] [cursor=pointer]
+    - generic [ref=e18]:
+      - generic [ref=e20]:
+        - button "156k" [ref=e21] [cursor=pointer]
+        - button "25k" [ref=e26] [cursor=pointer]
+      - button [ref=e31] [cursor=pointer]
+      - button [ref=e37] [cursor=pointer]:
+        - img "User" [ref=e42]
+  - generic [ref=e47]:
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: Get started
+            - button [ref=e54] [cursor=pointer]
+          - generic [ref=e58]: 33%
+          - generic [ref=e62]:
+            - button "Star repo for updates" [ref=e63] [cursor=pointer]
+            - button "Join the community" [ref=e68] [cursor=pointer]
+            - button "Create a flow"
+        - separator [ref=e74]
+        - generic [ref=e75]:
+          - generic [ref=e76]: Projects
+          - generic [ref=e77]:
+            - button [ref=e78] [cursor=pointer]
+            - button [ref=e79] [cursor=pointer]
+      - list [ref=e83]:
+        - listitem [ref=e84]:
+          - generic [ref=e85]:
+            - button "Starter Project" [ref=e86] [cursor=pointer]
+            - combobox [ref=e92] [cursor=pointer]
+      - generic [ref=e99]:
+        - button "Knowledge" [ref=e100] [cursor=pointer]
+        - button "My Files" [ref=e103] [cursor=pointer]
+    - main [ref=e107]:
+      - generic [ref=e113]:
+        - generic [ref=e114]: Starter Project
+        - generic [ref=e115]:
+          - button "MCP Server" [ref=e117] [cursor=pointer]
+          - button "Flows" [ref=e119] [cursor=pointer]
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - textbox "Search flows..." [ref=e124]
+              - generic: Search flows...
+            - generic [ref=e125]:
+              - button [ref=e127] [cursor=pointer]
+              - button [ref=e129] [cursor=pointer]
+          - generic [ref=e135]:
+            - generic:
+              - button [ref=e136] [cursor=pointer]
+              - button "Delete" [ref=e137] [cursor=pointer]
+            - button "New Flow" [ref=e138] [cursor=pointer]
+        - generic [ref=e142] [cursor=pointer]:
+          - generic [ref=e143]:
+            - checkbox [ref=e145]
+            - generic [ref=e152]:
+              - generic [ref=e153]: New Flow
+              - generic [ref=e155]: Edited 34 minutes ago
+          - button [ref=e158]

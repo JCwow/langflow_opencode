@@ -1,0 +1,7 @@
+[      23ms] [INFO] 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:7860/assets/index-CpHyIiLz.js:979
+[     582ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    2009ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    4440ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    8875ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   17369ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   33817ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0

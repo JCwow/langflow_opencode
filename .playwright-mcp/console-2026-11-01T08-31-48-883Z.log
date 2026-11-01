@@ -1,0 +1,42 @@
+[      95ms] [INFO] 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:7860/assets/index-CpHyIiLz.js:979
+[     524ms] [ERROR] SyntaxError: Unexpected token 'S', "Splitter-1"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at O1 (http://localhost:7860/assets/index-CpHyIiLz.js:1057:12514)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:1057:9315
+    at Array.forEach (<anonymous>)
+    at q6r (http://localhost:7860/assets/index-CpHyIiLz.js:1057:9303)
+    at gft (http://localhost:7860/assets/index-CpHyIiLz.js:1057:6826)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:1057:6634
+    at Array.forEach (<anonymous>)
+    at u9 (http://localhost:7860/assets/index-CpHyIiLz.js:1057:6416)
+    at Object.t [as mutationFn] (http://localhost:7860/assets/index-CpHyIiLz.js:6260:95335) @ http://localhost:7860/assets/index-CpHyIiLz.js:1056
+[     525ms] [ERROR] SyntaxError: Unexpected token 'S', "Splitter-1"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at O1 (http://localhost:7860/assets/index-CpHyIiLz.js:1057:12514)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:1057:9315
+    at Array.forEach (<anonymous>)
+    at q6r (http://localhost:7860/assets/index-CpHyIiLz.js:1057:9303)
+    at gft (http://localhost:7860/assets/index-CpHyIiLz.js:1057:6826)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:1057:6634
+    at Array.forEach (<anonymous>)
+    at u9 (http://localhost:7860/assets/index-CpHyIiLz.js:1057:6416)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:6727:42310
+    at B (http://localhost:7860/assets/index-CpHyIiLz.js:7088:61398)
+    at async http://localhost:7860/assets/index-CpHyIiLz.js:7088:61109 @ http://localhost:7860/assets/index-CpHyIiLz.js:1056
+[     527ms] SyntaxError: Unexpected token 'S', "Splitter-1"... is not valid JSON
+    at JSON.parse (<anonymous>)
+    at O1 (http://localhost:7860/assets/index-CpHyIiLz.js:1057:12514)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:1057:2272
+    at Array.forEach (<anonymous>)
+    at nEe (http://localhost:7860/assets/index-CpHyIiLz.js:1057:2097)
+    at Object.resetFlow (http://localhost:7860/assets/index-CpHyIiLz.js:1031:15339)
+    at setCurrentFlow (http://localhost:7860/assets/index-CpHyIiLz.js:1028:25310)
+    at http://localhost:7860/assets/index-CpHyIiLz.js:6727:42452
+    at B (http://localhost:7860/assets/index-CpHyIiLz.js:7088:61398)
+    at async http://localhost:7860/assets/index-CpHyIiLz.js:7088:61109
+[     888ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    2335ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    4851ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    9328ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   17855ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   34299ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0

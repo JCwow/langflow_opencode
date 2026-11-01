@@ -1,0 +1,12 @@
+- generic [ref=f6e11]:
+  - button [ref=f6e13] [cursor=pointer]
+  - generic [ref=f6e20]:
+    - generic [ref=f6e21]: /
+    - generic [aria-hidden] [ref=f6e28] [cursor=pointer]: Untitled Flow
+  - generic [ref=f6e32]:
+    - generic [ref=f6e34]:
+      - button "156k" [ref=f6e35] [cursor=pointer]
+      - button "25k" [ref=f6e40] [cursor=pointer]
+    - button [ref=f6e45] [cursor=pointer]
+    - button [ref=f6e51] [cursor=pointer]:
+      - img "User" [ref=f6e56]

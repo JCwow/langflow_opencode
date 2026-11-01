@@ -1,0 +1,277 @@
+- generic [ref=e10]:
+  - generic [ref=e11]:
+    - button [ref=e13] [cursor=pointer]
+    - generic [ref=e20]:
+      - generic [ref=e21]: Starter Project
+      - generic [ref=e24]: /
+      - generic [aria-hidden] [ref=e31] [cursor=pointer]: PDF Knowledge Base - Ollama + Qdrant
+    - generic [ref=e35]:
+      - generic [ref=e37]:
+        - button "156k" [ref=e38] [cursor=pointer]
+        - button "25k" [ref=e43] [cursor=pointer]
+      - button [ref=e48] [cursor=pointer]
+      - button [ref=e54] [cursor=pointer]:
+        - img "User" [ref=e59]
+  - generic [ref=e67]:
+    - generic [ref=e72]:
+      - list [ref=e74]:
+        - listitem [ref=e76]:
+          - button "Search" [ref=e77] [cursor=pointer]
+        - listitem [ref=e83]:
+          - button "Components" [ref=e84] [cursor=pointer]
+        - listitem [ref=e92]:
+          - button "ModelContextProtocol MCP" [ref=e93] [cursor=pointer]:
+            - img "ModelContextProtocol" [ref=e94]
+            - generic [ref=e97]: MCP
+        - listitem [ref=e99]:
+          - button "Bundles" [ref=e100] [cursor=pointer]
+        - listitem [ref=e106]:
+          - button "Versions" [ref=e107] [cursor=pointer]
+        - listitem [ref=e114]:
+          - button "Traces" [ref=e115] [cursor=pointer]
+      - generic [ref=e119]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - searchbox "Search" [ref=e123]
+            - generic: Search
+          - generic: /
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - generic [ref=e126]:
+              - generic [ref=e127]: Components
+              - button [ref=e129] [cursor=pointer]
+            - list [ref=e131]:
+              - listitem [ref=e133]:
+                - button "Input & Output" [ref=e134] [cursor=pointer]
+              - listitem [ref=e143]:
+                - button "Data Sources" [ref=e144] [cursor=pointer]
+              - listitem [ref=e153]:
+                - button "Models & Agents" [ref=e154] [cursor=pointer]
+              - listitem [ref=e162]:
+                - button "LLM Operations" [ref=e163] [cursor=pointer]
+              - listitem [ref=e180]:
+                - button "Files & Knowledge" [ref=e181] [cursor=pointer]
+              - listitem [ref=e190]:
+                - button "Processing" [ref=e191] [cursor=pointer]
+              - listitem [ref=e197]:
+                - button "Flow Control" [ref=e198] [cursor=pointer]
+              - listitem [ref=e206]:
+                - button "Utilities" [ref=e207] [cursor=pointer]
+          - button "Discover more components" [ref=e214] [cursor=pointer]
+        - button "New Custom Component" [ref=e217] [cursor=pointer]
+    - main [ref=e220]:
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - generic [ref=e226]: New
+            - button [ref=e230] [cursor=pointer]:
+              - img "Langflow Assistant" [ref=e233]
+          - button "134%" [ref=e234] [cursor=pointer]
+          - button "Add Sticky Note" [ref=e239] [cursor=pointer]
+          - button "Help" [ref=e243] [cursor=pointer]
+          - button "Lock flow" [ref=e244] [cursor=pointer]
+          - button "Select a node to open the Inspector Panel" [ref=e248] [cursor=pointer]
+        - generic [ref=e254]:
+          - button "Playground" [ref=e255] [cursor=pointer]
+          - button "Share" [ref=e257] [cursor=pointer]
+        - generic:
+          - button "search"
+          - button "components"
+          - button "ModelContextProtocol":
+            - generic:
+              - img "ModelContextProtocol"
+          - button "bundles"
+          - button "versions"
+          - button "traces"
+        - application [ref=e258]:
+          - generic [ref=e260]:
+            - generic:
+              - generic:
+                - img:
+                  - group "Edge from File-1 to Splitter-1" [ref=e261] [cursor=pointer]
+                - img:
+                  - group "Edge from Splitter-1 to Qdrant-Ingest" [ref=e266] [cursor=pointer]
+                - img:
+                  - group "Edge from OllamaEmbeddings-Ingest to Qdrant-Ingest" [ref=e271] [cursor=pointer]
+                - img:
+                  - group "Edge from ChatInput-1 to Qdrant-Retrieval" [ref=e276] [cursor=pointer]
+                - img:
+                  - group "Edge from OllamaEmbeddings-Retrieval to Qdrant-Retrieval" [ref=e281] [cursor=pointer]
+                - img:
+                  - group "Edge from Qdrant-Retrieval to ChatOutput-1" [ref=e286] [cursor=pointer]
+              - generic:
+                - group [ref=e291]:
+                  - generic [ref=e293]:
+                    - generic [ref=e294]:
+                      - generic [ref=e295]:
+                        - generic [ref=e296]: Read File
+                        - button [ref=e308] [cursor=pointer]
+                      - paragraph [ref=e316]: Loads and returns the content from uploaded files.
+                    - generic [ref=e317]:
+                      - generic [ref=e319]:
+                        - generic [ref=e320]: Files
+                        - button "Select files" [ref=e332] [cursor=pointer]
+                      - generic [ref=e335]:
+                        - generic [ref=e336]: Advanced Parser
+                        - switch [ref=e344] [cursor=pointer]
+                      - generic [ref=e347]:
+                        - generic [ref=e348]: Raw Content
+                        - button [disabled] [ref=e351]
+                - group [ref=e356]:
+                  - generic [ref=e358]:
+                    - generic [ref=e359]:
+                      - generic [ref=e360]:
+                        - generic [ref=e361]: Recursive Character Text Splitter
+                        - button [ref=e374] [cursor=pointer]
+                      - paragraph [ref=e382]: Split text trying to keep all related text together.
+                    - generic [ref=e383]:
+                      - generic [ref=e385]:
+                        - generic [ref=e386]: Chunk Size
+                        - generic [ref=e394]:
+                          - spinbutton "Type an integer number" [ref=e395]: "1000"
+                          - generic [aria-hidden] [ref=e396]:
+                            - button [ref=e397] [cursor=pointer]
+                            - button [ref=e399] [cursor=pointer]
+                      - generic [ref=e402]:
+                        - generic [ref=e403]: Chunk Overlap
+                        - generic [ref=e411]:
+                          - spinbutton "Type an integer number" [ref=e412]: "150"
+                          - generic [aria-hidden] [ref=e413]:
+                            - button [ref=e414] [cursor=pointer]
+                            - button [ref=e416] [cursor=pointer]
+                      - generic [ref=e418]: Input*
+                      - generic [ref=e430]:
+                        - generic [ref=e431]: Separators
+                        - generic [ref=e438]:
+                          - button [ref=e440] [cursor=pointer]
+                          - generic [ref=e445]:
+                            - textbox "Type something..." [ref=e446]
+                            - generic: Type something...
+                      - generic [ref=e449]:
+                        - generic [ref=e450]: JSON
+                        - button [disabled] [ref=e453]
+                - group [ref=e458]:
+                  - generic [ref=e460]:
+                    - generic [ref=e461]:
+                      - generic [ref=e462]:
+                        - generic [ref=e463]: Ollama Embeddings
+                        - button [ref=e478] [cursor=pointer]
+                      - paragraph [ref=e486]: Generate embeddings using Ollama models.
+                    - generic [ref=e487]:
+                      - generic [ref=e489]:
+                        - generic [ref=e490]: Ollama Model*
+                        - combobox [ref=e497] [cursor=pointer]:
+                          - generic [ref=e498]: nomic-embed-text:latest
+                      - generic [ref=e501]:
+                        - generic [ref=e502]: Ollama Base URL*
+                        - generic [ref=e509]:
+                          - button [ref=e511]:
+                            - textbox "Type something..." [ref=e512]: http://host.docker.internal:11434
+                          - button [ref=e514] [cursor=pointer]
+                      - generic [ref=e520]:
+                        - generic [ref=e521]: Embeddings
+                        - button [disabled] [ref=e524]
+                - group [ref=e529]:
+                  - generic [ref=e531]:
+                    - generic [ref=e532]:
+                      - generic [ref=e533]:
+                        - generic [ref=e534]: Qdrant
+                        - button [ref=e554] [cursor=pointer]
+                      - paragraph [ref=e562]: Qdrant Vector Store with search capabilities
+                    - generic [ref=e563]:
+                      - generic [ref=e565]:
+                        - generic [ref=e566]: Collection Name*
+                        - generic [ref=e570]:
+                          - button [ref=e572]:
+                            - textbox "Type something..." [ref=e573]: langflow_documents
+                          - button [ref=e575] [cursor=pointer]
+                      - generic [ref=e579]: Ingest Data
+                      - generic [ref=e588]:
+                        - generic [ref=e589]: Search Query
+                        - generic [ref=e596]:
+                          - generic [ref=e597]:
+                            - textbox "Enter a query..." [ref=e598]
+                            - generic: Enter a query...
+                          - img [aria-hidden] [ref=e599] [cursor=pointer]
+                      - generic [ref=e604]: Embedding
+                      - generic [ref=e613]:
+                        - combobox [ref=e616] [cursor=pointer]:
+                          - generic [ref=e617]: Search Results
+                        - button [disabled] [ref=e621]
+                - group [ref=e626]:
+                  - generic [ref=e628]:
+                    - generic [ref=e629]:
+                      - generic [ref=e630]:
+                        - generic [ref=e631]: Chat Input
+                        - button [ref=e643] [cursor=pointer]
+                      - paragraph [ref=e651]: Get chat inputs from the Playground.
+                    - generic [ref=e652]:
+                      - generic [ref=e654]:
+                        - generic [ref=e655]: Input Text
+                        - generic [ref=e662]:
+                          - generic [ref=e663]:
+                            - textbox "Type something..." [ref=e664]
+                            - generic: Type something...
+                          - img [aria-hidden] [ref=e665] [cursor=pointer]
+                      - generic [ref=e672]:
+                        - generic [ref=e673]: Chat Message
+                        - button [disabled] [ref=e676]
+                - group [ref=e681]:
+                  - generic [ref=e683]:
+                    - generic [ref=e684]:
+                      - generic [ref=e685]:
+                        - generic [ref=e686]: Ollama Embeddings
+                        - button [ref=e701] [cursor=pointer]
+                      - paragraph [ref=e709]: Generate embeddings using Ollama models.
+                    - generic [ref=e710]:
+                      - generic [ref=e712]:
+                        - generic [ref=e713]: Ollama Model*
+                        - combobox [ref=e720] [cursor=pointer]:
+                          - generic [ref=e721]: nomic-embed-text:latest
+                      - generic [ref=e724]:
+                        - generic [ref=e725]: Ollama Base URL*
+                        - generic [ref=e732]:
+                          - button [ref=e734]:
+                            - textbox "Type something..." [ref=e735]: http://host.docker.internal:11434
+                          - button [ref=e737] [cursor=pointer]
+                      - generic [ref=e743]:
+                        - generic [ref=e744]: Embeddings
+                        - button [disabled] [ref=e747]
+                - group [ref=e752]:
+                  - generic [ref=e754]:
+                    - generic [ref=e755]:
+                      - generic [ref=e756]:
+                        - generic [ref=e757]: Qdrant
+                        - button [ref=e777] [cursor=pointer]
+                      - paragraph [ref=e785]: Qdrant Vector Store with search capabilities
+                    - generic [ref=e786]:
+                      - generic [ref=e788]:
+                        - generic [ref=e789]: Collection Name*
+                        - generic [ref=e793]:
+                          - button [ref=e795]:
+                            - textbox "Type something..." [ref=e796]: langflow_documents
+                          - button [ref=e798] [cursor=pointer]
+                      - generic [ref=e802]: Ingest Data
+                      - generic [ref=e811]:
+                        - generic [ref=e812]: Search Query
+                        - generic:
+                          - generic:
+                            - textbox "Receiving input" [disabled]
+                            - generic: Receiving input
+                      - generic [ref=e819]: Embedding
+                      - generic [ref=e828]:
+                        - combobox [ref=e831] [cursor=pointer]:
+                          - generic [ref=e832]: Search Results
+                        - button [disabled] [ref=e836]
+                - group [ref=e841]:
+                  - generic [ref=e843]:
+                    - generic [ref=e844]:
+                      - generic [ref=e845]:
+                        - generic [ref=e846]: Chat Output
+                        - button [ref=e858] [cursor=pointer]
+                      - paragraph [ref=e866]: Display a chat message in the Playground.
+                    - generic [ref=e867]:
+                      - generic [ref=e868]: Inputs*
+                      - generic [ref=e880]:
+                        - generic [ref=e881]: Output Message
+                        - button [disabled] [ref=e884]

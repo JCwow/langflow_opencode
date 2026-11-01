@@ -1,0 +1,25 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "langflow": {
+        "type": "local",
+        "command": [
+          "npx",
+          "tsx",
+          "src/index.ts"
+        ]
+      },
+      "playwright": {
+        "type": "local",
+        "command": [
+          "npx",
+          "-y",
+          "@playwright/mcp@latest",
+          "--browser",
+          "chromium"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+1. Flow ID: bf22e0ed-fcc0-4111-92d0-7308862edb30
+2. Exact name: PDF Knowledge Base - Ollama + Qdrant
+3. Node count: 8, Edge count: 6
+
+

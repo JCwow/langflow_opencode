@@ -1,0 +1,13 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "servers": {
+      "langflow": {
+        "type": "local",
+        "command": ["npx", "tsx", "src/index.ts"],
+        "cwd": "/Users/jessie/langflow-opencode",
+        "timeout": 60000
+      }
+    }
+  }
+}

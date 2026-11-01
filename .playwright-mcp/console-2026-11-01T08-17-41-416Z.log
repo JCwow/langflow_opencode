@@ -1,0 +1,12 @@
+[      26ms] [INFO] 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:7860/assets/index-CpHyIiLz.js:979
+[     602ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    2033ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    4485ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    6268ms] [WARNING] Blocked aria-hidden on an element because its descendant retained focus. The focus must not be hidden from assistive technology users. Avoid using aria-hidden on a focused element or its ancestor. Consider using the inert attribute instead, which will also prevent focus. For more details, see the aria-hidden section of the WAI-ARIA specification at https://w3c.github.io/aria/#aria-hidden.
+Element with focus: <button.noflow nopan nodelete nodrag inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-70 disabled:pointer-events-none [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-primary text-primary-foreground hover:bg-primary-hover p-1.5 rounded-md z-50 px-2.5 !text-mmd active:scale-[0.97]#new-project-btn>
+Ancestor with aria-hidden: <div#root> @ http://localhost:7860/flows:0
+[    8996ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   17433ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   33955ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[  128912ms] [ERROR] Failed to load resource: the server responded with a status of 404 (Not Found) @ http://localhost:7860/api/v1/flows/2756f368-ce79-4d50-8564-98d51cd45e70/events?since=1793521075.315:0
+[  128913ms] [ERROR] [useFlowEvents] Terminal error, stopping poll: 404 @ http://localhost:7860/assets/index-CpHyIiLz.js:7045

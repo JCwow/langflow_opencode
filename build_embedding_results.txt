@@ -1,0 +1,18 @@
+## Ollama Embeddings (ollama/OllamaEmbeddingsComponent)
+
+### Outputs
+- `embeddings` (Embeddings) — method: `build_embeddings()`, tool_mode: true
+
+### Inputs
+
+| Input | Type | Required | Advanced | Default | Notes |
+|---|---|---|---|---|---|
+| `model_name` | DropdownInput (combobox, refresh_button) | true | false | "" (empty) | Populated dynamically from Ollama instance via `get_model()`; filtered to models with embedding capability. |
+| `base_url` | StrInput | true | false | "http://localhost:11434" | Endpoint of Ollama API. If `/v1` suffix is present, it's stripped and a warning is issued (use OpenAI component for OpenAI-compatible API). `real_time_refresh: true`. |
+| `api_key` | SecretStrInput | false | true | (none) | Optional API key sent as `Authorization: Bearer ...` if present. `load_from_db: true`. | 
+
+### Notes
+- Base classes: Embeddings
+- Icon: Ollama
+- Documentation: https://python.langchain.com/docs/integrations/text_embedding/ollama
+- Dependencies: httpx 0.28.1, langchain_ollama 0.3.10, lfx

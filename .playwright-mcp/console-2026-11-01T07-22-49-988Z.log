@@ -1,0 +1,29 @@
+[      48ms] [INFO] 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ http://localhost:7860/assets/index-CpHyIiLz.js:979
+[     243ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     262ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     262ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'data')
+    at Object.o [as mutationFn] (http://localhost:7860/assets/index-CpHyIiLz.js:1028:27692) @ http://localhost:7860/assets/index-CpHyIiLz.js:1027
+[     264ms] Authentication error
+[     298ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     311ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     311ms] [ERROR] TypeError: Cannot read properties of undefined (reading 'data')
+    at Object.o [as mutationFn] (http://localhost:7860/assets/index-CpHyIiLz.js:1028:27692) @ http://localhost:7860/assets/index-CpHyIiLz.js:1027
+[     313ms] Authentication error
+[     328ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:7860/api/v1/store/check/api_key:0
+[     332ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     336ms] [ERROR] Failed to load resource: the server responded with a status of 403 (Forbidden) @ http://localhost:7860/api/v1/projects/:0
+[     336ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     338ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     341ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     342ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:7860/api/v1/refresh:0
+[     342ms] [ERROR] AxiosError: Request failed with status code 401
+    at cxn (http://localhost:7860/assets/index-CpHyIiLz.js:1021:1100)
+    at XMLHttpRequest.E (http://localhost:7860/assets/index-CpHyIiLz.js:1021:5989) @ http://localhost:7860/assets/index-CpHyIiLz.js:1027
+[     343ms] Authentication error
+[     869ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    1289ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    1784ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    3215ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[    5643ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   10082ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
+[   18550ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:7860/api/v1/store/tags:0
